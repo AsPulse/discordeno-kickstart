@@ -1,0 +1,16 @@
+{
+  "tasks": {
+    "run": "deno run --allow-read=. --allow-env --allow-net=discord.com,gateway.discord.gg ./src/mod.ts"
+  },
+  "imports": {
+    "path": "https://deno.land/std@0.187.0/path/mod.ts",
+    "dotenv": "https://deno.land/std@0.187.0/dotenv/mod.ts",
+    "colors": "https://deno.land/std@0.187.0/fmt/colors.ts",
+    "discordeno": "https://deno.land/x/discordeno@18.0.1/mod.ts"
+  },
+  "fmt": {
+    "options": {
+      "singleQuote": true
+    }
+  }
+}
